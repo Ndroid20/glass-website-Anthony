@@ -181,3 +181,14 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media all and (max-width: 500px) {
+  main {
+  }
+  .dashboard {
+    /* flex-direction: row; */
+  }
+  .glass {
+    flex-wrap: wrap;
+  }
+}
